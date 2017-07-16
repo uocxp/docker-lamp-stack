@@ -5,7 +5,7 @@ services:
   ports :
    - 8180:80
   volumes:
-  - www:/var/www/html/ 
+  - ./www:/var/www/html/ 
   depends_on: 
    - mysql
  phpmyadmin:
